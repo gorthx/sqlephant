@@ -1,8 +1,8 @@
-CREATE OR REPLACE FUNCTION pg_think()
+CREATE OR REPLACE FUNCTION pg_think(text)
 RETURNS text AS $$
 SELECT E'
           __     __ 
-         /  \\~~~/  \\ 
+         /  \\~~~/  \\   . o O ( '::text || $1 || E' )
    ,----(     oo    )
   /      \\__     __/        
  /|         (\\  |(
